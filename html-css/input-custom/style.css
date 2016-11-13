@@ -1,0 +1,36 @@
+.input-file {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.input-file + label{
+	font-size: 100px;
+	cursor: pointer;
+}
+
+.box-img{
+	height: 250px;
+	width: 250px;
+	border-style: dashed;
+}
+
+#box-logo .img-selected{
+	display: none;
+}
+
+#opt-logo{
+	display: none;
+}
+
+#box-profile .input-img{
+	display: none;
+}
+
+.img-selected img{
+	width: 100%;
+	height: 100%;
+}
